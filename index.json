@@ -141,12 +141,7 @@
       "500hz",
       "50hz",
       "533",
-      "5in",
-      "6 Inch",
-      "6\"",
       "6S",
-      "7 Inch",
-      "7\"",
       "AlexFPV",
       "BMSThomas",
       "CTZsoonze",
@@ -1998,86 +1993,6 @@
       ]
     },
     {
-      "fullPath": "presets/4.3/tune/ctzsnooze_5in_4S_race.txt",
-      "hash": "efe81625a50ab10752ae454047b39f4fbd1238b9665713de797a83e2eda42d5f",
-      "options": [
-        {
-          "name": "FILTER: RPM enabled, ctzsnooze race",
-          "checked": false
-        },
-        {
-          "name": "FILTER: RPM enabled, noisy build",
-          "checked": false
-        },
-        {
-          "name": "FILTER: NON-RPM ESCs, normal build",
-          "checked": false
-        },
-        {
-          "name": "Default RC_smoothing (recommended)",
-          "checked": true
-        },
-        {
-          "name": "Throttle limit 96% (recommended)",
-          "checked": false
-        },
-        {
-          "name": "Full Sag compensation (recommended)",
-          "checked": false
-        },
-        {
-          "name": "No deadband (recommended)",
-          "checked": false
-        },
-        {
-          "name": "Flat throttle curve (recommended)",
-          "checked": false
-        },
-        {
-          "name": "Arm at any angle (recommended)",
-          "checked": false
-        },
-        {
-          "name": "Try ctzsnooze's race Rates (optional)",
-          "checked": false
-        }
-      ],
-      "title": "5\" 4S race by ctzsznooze",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "OFFICIAL",
-      "keywords": [
-        "5in",
-        "4S",
-        "race",
-        "tune",
-        "ctzsnooze"
-      ],
-      "author": "ctzsnooze",
-      "discussion": "https://github.com/betaflight/firmware-presets/pull/8",
-      "description": [
-        "Basic 5\" 4S race setup for 4.3 by ctzsnooze, tolerates bad props.",
-        "",
-        "RPM filtering is STRONGLY RECOMMENDED!",
-        "",
-        "PLEASE CHECK THE OPTIONS IN THE LIST ABOVE!",
-        "NOTE: You must choose ONE of the three FILTER options!",
-        "You should check all the (recommended) options",
-        "",
-        "My suggested Rates are (optional)"
-      ],
-      "include": [
-        "presets/4.3/tune/defaults.txt",
-        "presets/4.3/filters/ctzsnooze_race.txt",
-        "presets/4.3/filters/default_rpm_noisy.txt",
-        "presets/4.3/filters/default_no_rpm_normal.txt",
-        "presets/4.3/rc_smoothing/race.txt",
-        "presets/4.3/rates/ctzsnooze_race.txt"
-      ]
-    },
-    {
       "fullPath": "presets/4.3/tune/defaults.txt",
       "hash": "893935eae369a70afb3579d04b991334c91b8fafc6c93b9985b0d4b70872f2d9",
       "options": [],
@@ -2633,116 +2548,6 @@
       "author": "SupaflyFPV",
       "description": [
         "Supa-Easy Freestyle Preset for 5 Inch Builds",
-        "",
-        "Easily tune freestyle builds and get great performance using only the Master Multiplier Slider.",
-        "",
-        "Select the option for your build with or without HD camera (eg GoPro) as the base tune.",
-        "",
-        "Half to one click up or down Master Slider to tweak the tune - in OSD or Configurator.",
-        "",
-        "If the quad feels loose, click Master up. Quad shakes/oscillates click Master down.",
-        "",
-        "RPM Filtering for best performance (default) - or de-select for Non RPM Setup (check esc compatibility).",
-        "",
-        "Thats it. Enjoy!"
-      ],
-      "discussion": "https://github.com/betaflight/firmware-presets/pull/41",
-      "include_warning": [
-        "misc/warnings/en/rpm_filters.txt"
-      ],
-      "include": [
-        "presets/4.3/tune/defaults.txt",
-        "presets/4.3/filters/defaults.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/tune/SupaflyFPV_Freestyle_6_and_EasyTune.txt",
-      "hash": "bf1586ca296f15622f056ce70435c5412c402479c6653b3150608ff1b4808490",
-      "options": [
-        {
-          "name": "RPM filtering --",
-          "checked": true
-        },
-        {
-          "name": "With HD Cam",
-          "checked": true
-        },
-        {
-          "name": "Without HD Cam",
-          "checked": false
-        }
-      ],
-      "title": "SupaflyFPV Freestyle 6 Inch EasyTune",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "OFFICIAL",
-      "keywords": [
-        "Supafly",
-        "SupaflyFPV",
-        "Freestyle",
-        "6\"",
-        "6 Inch"
-      ],
-      "author": "SupaflyFPV",
-      "description": [
-        "Supa-Easy Freestyle Preset for 6 Inch Builds",
-        "",
-        "Easily tune freestyle builds and get great performance using only the Master Multiplier Slider.",
-        "",
-        "Select the option for your build with or without HD camera (eg GoPro) as the base tune.",
-        "",
-        "Half to one click up or down Master Slider to tweak the tune - in OSD or Configurator.",
-        "",
-        "If the quad feels loose, click Master up. Quad shakes/oscillates click Master down.",
-        "",
-        "RPM Filtering for best performance (default) - or de-select for Non RPM Setup (check esc compatibility).",
-        "",
-        "Thats it. Enjoy!"
-      ],
-      "discussion": "https://github.com/betaflight/firmware-presets/pull/41",
-      "include_warning": [
-        "misc/warnings/en/rpm_filters.txt"
-      ],
-      "include": [
-        "presets/4.3/tune/defaults.txt",
-        "presets/4.3/filters/defaults.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/tune/SupaflyFPV_Freestyle_7_Inch_EasyTune.txt",
-      "hash": "7a3856e127e7a88393922018fc83357fd5f9607223f18af78105d306f90eba53",
-      "options": [
-        {
-          "name": "RPM filtering --",
-          "checked": true
-        },
-        {
-          "name": "With HD Cam",
-          "checked": true
-        },
-        {
-          "name": "Without HD Cam",
-          "checked": false
-        }
-      ],
-      "title": "SupaflyFPV Freestyle 7 Inch EasyTune",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "OFFICIAL",
-      "keywords": [
-        "Supafly",
-        "SupaflyFPV",
-        "Freestyle",
-        "7\"",
-        "7 Inch"
-      ],
-      "author": "SupaflyFPV",
-      "description": [
-        "Supa-Easy Freestyle Preset for 7 Inch Builds",
         "",
         "Easily tune freestyle builds and get great performance using only the Master Multiplier Slider.",
         "",
